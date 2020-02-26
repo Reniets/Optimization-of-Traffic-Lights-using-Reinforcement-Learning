@@ -11,6 +11,8 @@ If you select the option of simulating with graphics on, you will achieve the op
   - If ON: Simulation timescale (1.0 = realtime and 2.5 = 1 sec in real life is 2.5 sec in the simulation)
 - Start time in seconds (0 = 00:00 and 28800 = 08:00)
 
-**Image of simulation**
+### Images of simulation
+#### Running simulation with graphics
 ![Simulation in console](Images/SimulationImage.png)
-*Images of options and the simulation running*
+#### Results from running simulation without graphics
+![Results in console](Images/SimulationResults.png)
