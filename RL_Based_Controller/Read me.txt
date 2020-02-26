@@ -1,0 +1,39 @@
+-----Read-me-----
+
+Program: agent.c
+----------------
+
+agent.c har to funktionaliteter, enten kan man simulerer et kryds via en specifik forud trænet agent,
+eller så kan man træne en agent, alt efter hvad man ønsker.
+
+
+__Guide: Simuler agent__
+1. Compile agent.c
+2. Kør agent.exe
+3. Indtast 1 som input for at simulerer
+4. Indtast en discount værdi som allerede er trænet (Se mappen agents) f.eks. 0.83
+5. Indtast en ønsket tidshorisont som allerede er trænet (Se discount mappen f.eks. "D 0.83" under agents)
+6. Indtast 1 for grafik, og 0 for ingen grafik. (Et output resultat gives til sidst uanset)
+7. Vælg et start tidspunkt, det tælles i sekunder efter midnat. 0 = 00:00 og 28800 = 08:00.
+8. Vælg en simulerings timescale. 1 er tilsvarende naturlig hastighed og 2 er lig dobbelt hastighed osv. i forhold til den virkelige verden.
+9. Vælg et navn til din output fil. Tidligere filer med samme navn overskrives.
+
+P.S.
+-Sammen med programmet er et stort dataset af allerede trænet agenter vedlagt, som allerede nu kan anvendes.
+-På en standard computer tager det ca. 30-40 sec at simulere et helt døgn uden grafik.
+-Og meget lang tid med grafik.
+
+
+__Guide: Træn agent__
+1. Compile agent.c
+2. Kør agent.exe
+3. Indtast 0 som input for at træne
+4. Indtast en discount værdi som som ønskes trænet. (Tidligere trænet agenter med samme discount overskrives i takt med træningen udvikler sig)
+5. Indtast en ønsket tidshorisont som ønsket trænet op til. (Alle tidshorisonter mellem 1 til det ønsket bliver gemt undervejs i træningen)
+
+P.S.
+-Sammen med programmet er et stort dataset af allerede trænet agenter vedlagt, og det er derfor ikke nødvendigt at træne sine egne agenter.
+-På en standard computer tager det ca. 3 min at træne for hver tidshorisont.
+-Så ved en tidshorisont = 10 forventes ca. 30 min træning.
+-En tidshorisont på omkring 7-13 plejer at være det interval en god løsning findes.
+-En discount på omkring 0,83 plejer at være et godt udgangspunkt for en god løsning.
