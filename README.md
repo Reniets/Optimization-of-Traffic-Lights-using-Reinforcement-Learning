@@ -12,5 +12,5 @@ If you select the option of simulating with graphics on, you will achieve the op
 - Start time in seconds (0 = 00:00 and 28800 = 08:00)
 
 **Image of simulation**
-![Simulation in console]()
+![Simulation in console](Images/SimulationImage.png)
 *Images of options and the simulation running*
