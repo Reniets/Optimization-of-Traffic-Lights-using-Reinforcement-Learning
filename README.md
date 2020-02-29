@@ -16,3 +16,8 @@ If you select the option of simulating with graphics on, you will achieve the op
 ![Simulation in console](Images/SimulationImage.png)
 #### Results from running simulation without graphics
 ![Results in console](Images/SimulationResults.png)
+
+# Group Members and Report:
+Asger Bertel, Daniel Thomsen, Hannah Lockey, Mads Faber, Magnus Kirkegaard, Niki Ewald Zakariassen, Simon Steiner
+
+[Report](Report.pdf)
